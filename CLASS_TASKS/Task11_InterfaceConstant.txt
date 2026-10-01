@@ -1,0 +1,20 @@
+interface Sample {
+    final String name = "Shree";
+
+    void display();
+}
+
+public class Main implements Sample {
+
+    public void display() {
+        System.out.println("Welcome");
+    }
+
+    public static void main(String[] args) {
+        Main t = new Main();
+
+        t.display();
+
+        System.out.println(name);
+    }
+}
